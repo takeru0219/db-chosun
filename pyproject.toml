@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "db-chosun"
+version = "0.1.0"
+description = ""
+authors = ["takeru0219 <takeru0219@gmail.com>"]
+readme = "README.md"
+packages = [{include = "db_chosun"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.2"
+requests-html = "^0.10.0"
+selenium = "^4.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
